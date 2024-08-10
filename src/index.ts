@@ -25,10 +25,10 @@ const userController = new UserController();
 app.post("/user", userController.criar);
 
 const produtoController = new ProdutoController();
-app.post('/product', produtoController.criar);
+app.post('/produto', produtoController.criar);
 
 const lojaController = new LojaController();
-app.post('/store', lojaController.criar);
+app.post('/loja', lojaController.criar);
 
 const fornecedorController = new FornecedorController();
-app.post('/supplier', fornecedorController.criar);
+app.post('/fornecedor', fornecedorController.criar);
